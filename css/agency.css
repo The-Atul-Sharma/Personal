@@ -17,9 +17,9 @@ a {
     color: #fed136;
 }
 
+
 .parallax {
     /* The image used */
-    background-image: url('../img/header-bg.jpg');
     /* Full height */
     height: 300px;
     /* Create the parallax scrolling effect */
@@ -27,7 +27,24 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
+.aboutparallax{
+    background-image: url('../img/about.jpeg');    
+}
+.portfolioparallax{
+    background-image: url('../img/portfolio.jpeg');    
+}
+.teamparallax{
+    background-image: url('../img/code.jpeg');    
+}
+.generalparallax{
+    background-image: url('../img/general.jpeg');    
+}
+.contactparallax{
+    background-image: url('../img/contact.jpeg');    
+}
+
 
 a:hover {
     color: #fec503;
@@ -218,6 +235,10 @@ header.masthead .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+.parallaxdiv {
+    font-style: italic;
+    font-size: 20px;
+}
 
 header.masthead .intro-text .intro-heading {
     font-size: 50px;
@@ -352,6 +373,11 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
+}
+.text-align{
+	padding-top:100px;
+	font-style: italic;
+    font-family: sans-serif;
 }
 
 .portfolio-modal .modal-content p.item-intro {
